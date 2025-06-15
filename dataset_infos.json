@@ -1,0 +1,52 @@
+{"default": {
+    "description": "",
+    "citation": "",
+    "homepage": "",
+    "license": "",
+    "features": {
+        "tokens": {
+            "feature": {
+                "dtype": "string",
+                "_type": "Value"
+            },
+            "_type": "Sequence"
+        },
+        "tags": {
+            "feature": {
+                "names": [
+                    "O",
+                    "B-Disease",
+                    "I-Disease"
+                ],
+                "id": [
+                    0,
+                    1,
+                    2
+                ],
+                "_type": "ClassLabel"
+            },
+            "_type": "Sequence"
+        },
+        "sentence_id": {
+            "dtype": "string",
+            "_type": "Value"
+        }
+    },
+    "splits": {
+        "train": {
+            "name": "train",
+            "num_bytes": 6947635,
+            "num_examples": 15488,
+            "dataset_name": null
+        },
+        "test": {
+            "name": "test",
+            "num_bytes": 2614997,
+            "num_examples": 5737,
+            "dataset_name": null
+        }
+    },
+    "download_size": 1508920,
+    "dataset_size": 9562632,
+    "size_in_bytes": 11071552
+}}
